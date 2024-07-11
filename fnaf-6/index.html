@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- Created with https://packager.turbowarp.org/ -->
 <html>
@@ -160,7 +161,7 @@
 
   <div id="loading" class="screen">
     <noscript>Enable JavaScript</noscript>
-    
+    <h1 class="loading-text">Be patient, this is a very large file (100MB)</h1>
     
     <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
   </div>
@@ -307,7 +308,7 @@
       await scaffolding.loadProject(projectData);
       setProgress(1);
       loadingScreen.hidden = true;
-      if (false) {
+      if (true) {
         scaffolding.start();
       } else {
         launchScreen.hidden = false;
