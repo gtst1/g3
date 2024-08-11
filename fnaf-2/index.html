@@ -70,7 +70,7 @@
     </script>
     <link href="scratch.css" rel="stylesheet" type="text/css" />
   </head>
-  <body class="loading stretch-stage show-loading-progress stretch-loading-image show-fullscreen-btn show-monitor-box">
+  <body class="loading stretch-stage show-loading-progress stretch-loading-image show-monitor-box"><!--removed fullscreen-->
     <div id="wrapper">
       <canvas id="stage"></canvas>
       <div id="monitors"></div>
@@ -102,7 +102,7 @@
       <button id="download-btn" aria-label="Download Scratch project"></button>
       <button id="start-btn" aria-label="Start"></button>
       <button id="stop-btn" aria-label="Stop" disabled></button>
-      <!--remove fullscreen button - geometry tryhard(<button id="fullscreen-btn" aria-label="Enter/exit fullscreen"></button>)-->
+    <button id="fullscreen-btn" aria-label="Enter/exit fullscreen"></button>
 
     </div>
     <textarea id="errors" readonly></textarea>
